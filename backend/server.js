@@ -51,6 +51,6 @@ app.post('/add', async (req, res) => {
 // })
 
 
-app.listen(3050, "localhost", () => {
+app.listen(3050, "0.0.0.0", () => {
     console.log("bald wird es Mittagspause")
 });
